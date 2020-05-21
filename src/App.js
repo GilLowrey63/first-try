@@ -26,6 +26,7 @@ function App() {
       <h1 className={isRed ? "red" : ""}>Change my color!</h1>
       <button onClick={increment}>Increment</button>
       <h1>{count}</h1>
+
       {/*
       <Tweet name="Penny" message="Let's go skate!" />
       <Tweet name="Gil" message="I love coding." />
